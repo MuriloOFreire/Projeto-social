@@ -16,7 +16,8 @@ body {
     background: url('../imagens/fundo-madeira.jpg')
     no-repeat, top center;
     background-size: cover;
-    background-attachment: ;
+    background-attachment: fixed;
+
 }
 
 main {
@@ -67,4 +68,9 @@ section#redes-sociais img:hover {
 
 section#redes-sociais img:active {
     transform: scale(95%);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
